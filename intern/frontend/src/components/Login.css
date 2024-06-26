@@ -1,0 +1,38 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    background-color: #f5f5f5;
+    /* Light grey background color */
+}
+
+.login-image img {
+    max-width: 100%;
+}
+
+.login-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #dbd7d7;
+    /* White background color */
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}

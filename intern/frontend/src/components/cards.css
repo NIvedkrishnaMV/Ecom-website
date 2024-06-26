@@ -1,0 +1,122 @@
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.card-image .card-img{
+    height: 100%;
+    width: auto;
+    align-self: center;
+}
+.card{
+    border-radius: 25px;
+    background-color: #efefef;
+    width: 320px;
+    box-shadow: 2px 5px 5px 5px #888;
+    border-color: blue;
+}
+.image-content,.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+}
+.image-content{
+    align-items: center;
+    background-color: rgb(222, 231, 231);
+    border-radius: 10px;
+}
+.card-content{
+    background-color: rgb(143, 223, 223);
+    border-radius: 10px;
+}
+.button{
+    border-radius: 24px;
+    width: fit-content;
+    align-self: center;
+}
+.ucard-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    
+}
+.ucard-image .ucard-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+.ucard{
+    border-radius: 25px;
+    background-color: #efefef;
+    width: fit-content;
+    margin-top: 10px;
+    box-shadow: 2px 5px 5px 5px #888;
+    border-color: blue;
+}
+.ucard-image-content,.ucard-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+}
+.ucard-image-content{
+    align-items: center;
+    background-color: #efefef;
+
+}
+.ucard-content{
+    background-color: rgb(143, 223, 223);
+}
+.ucard-button{
+    border-radius: 24px;
+    width: fit-content;
+    align-self: center;
+}
+.table-container{
+    max-width: 1220px;
+    width: 100%;
+    max-height: 800px; 
+    height: 100%;
+    background-color: #888;
+}
+.thd{
+    text-decoration-color: #ffffff;
+}
+.usersList{
+    max-width: 1220px;
+    width:100%;
+    margin: 40px;
+}
+.heading{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.ptable-container{
+    overflow-x: auto;
+    max-width: 1220px;
+    width: 100%;
+    background-color: #888;
+}
+.pthd{
+    text-decoration-color: #ffffff;
+}
+.productList{
+    max-width: 1220px;
+    width:100%;
+    margin: 40px;
+}
+.pheading{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ctable-container{
+    overflow: auto;
+    max-width: 1225;
+    width: 100%;
+}

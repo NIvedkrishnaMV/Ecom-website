@@ -1,0 +1,41 @@
+/* Registration.css */
+
+.registration-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.registration-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    background-color: #9e9898;
+    /* Light grey background color */
+}
+
+.registration-image img {
+    max-width: 100%;
+}
+
+.registration-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #e7e6e6;
+    /* White background color */
+}
+
+.registration-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text-area{
+    overflow: auto;
+}
